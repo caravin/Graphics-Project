@@ -1,0 +1,8 @@
+Obtained data from part2 is trained using the neural network model present in the below
+google colab link:
+
+https://colab.research.google.com/drive/1y7mg36B_10Nc3KJeIVnGUDs01zG5eQdD?usp=sharing
+
+In the colab file, data loading subsection is used to load the data and final model is used to
+train the model with that data. Finally using the last section, we will use the trained model to
+predict output of huge data for surface reconstruction.

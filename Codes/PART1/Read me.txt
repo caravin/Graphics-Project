@@ -1,0 +1,9 @@
+To perform Delaunay triangulation, the above cpp file takes points data in format of x y z coordinate of each point in each line,
+ the output will be edges with starting point in one line and end point in the immediate line. ---> [1]
+
+The normals to each point directly from the original points data are calculated using open3d in the following collab link. ---> [2]
+https://colab.research.google.com/drive/1FZa29A0PR30oFDrTCSC0AgAmOvxWV6-y?usp=sharing
+
+The code to compute clusters using kmeans and to remove edges using the clusters and normals data is available in the following collab. This takes input from both [1] and [2].
+And the output is the valid edges from CGAL and it is sent to part 2 of the pipeline.
+https://colab.research.google.com/drive/1eFFjt5kg1A2CcWWq4HqcX_vYJWeC7q9i?usp=sharing
